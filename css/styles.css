@@ -1,5 +1,5 @@
 section{
-    padding: 100px;
+    padding: 80px;
 }
 .heros-page{
   background: url("assets/backgrounds/h_img.jpg") rgba(0, 0, 0, 0.5);
@@ -50,7 +50,7 @@ section{
   padding-top:200px;
 }
 
-.what-we-do h1{
+#what-we-do h1{
     text-align: center;
 
 }
@@ -59,11 +59,24 @@ section{
 }
  .items{
      display: flex;
-     justify-content: space-between;
+     justify-content: space-evenly;
  }
- 
+.item1{
+    text-align: center;
+    width: 20%;
+}
+.item2{
+    text-align: center;
+    width: 20%;
+    
+}
+.item3{
+    text-align: center;
+    width: 20%;
 
-.portfolio h1{text-align: center;}
+}
+.portfolio h1{text-align: center;
+ }
 
 .contacts-section{
   background: url("assets/backgrounds/c_image.jpg") rgba(0, 0, 0, 0.5); 
@@ -100,7 +113,7 @@ section{
     resize: none;
     opacity: 20%;
     background-color: black;
-    color: white;   
+    color: white;  
 
 }
 .the-footer{
@@ -109,4 +122,18 @@ section{
     text-align: center ;
     color: black;
 
+}
+.send-message{
+    padding: 40px;
+    opacity: 20%;
+
+}
+#paragraph1{
+    display: none;
+}
+#paragraph2{
+    display: none;
+}
+#paragraph3{
+    display: none;
 }

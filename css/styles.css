@@ -2,7 +2,7 @@ section{
     padding: 100px;
 }
 .heros-page{
-  background: url("") rgba(0, 0, 0, 0.5);
+  background: url("assets/backgrounds/h_img.jpg") rgba(0, 0, 0, 0.5);
   background-size: cover;
   object-fit: cover;
   width: 100%;
@@ -23,7 +23,6 @@ section{
 }
 .heros-page img{
     padding: 20px;
-
 }
 .heros-page p{
     padding: 20px;
@@ -34,7 +33,21 @@ section{
     text-align: center;
 }
 .services{
-    text-align: center;
+  text-align: center;
+  background: url("assets/backgrounds/s_image.jpg") rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  object-fit: cover;
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+  color: white;
+  font-family: sans-serif;
+  text-align:center;
+  background-size: cover;
+  padding-top:200px;
 }
 
 .what-we-do h1{
@@ -52,7 +65,8 @@ section{
 
 .portfolio h1{text-align: center;}
 
-.contacts-section {background: url("images/bg/s_image.jpg") rgba(0, 0, 0, 0.5);
+.contacts-section{
+  background: url("assets/backgrounds/c_image.jpg") rgba(0, 0, 0, 0.5); 
   background-size: cover;
   object-fit: cover;
   width: 100%;

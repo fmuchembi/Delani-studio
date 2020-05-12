@@ -128,8 +128,9 @@ section{
 }
 .port:first-line{
     color:white;
-    font-weight: bold;
-    font-size: 3px;
+    font-weight: bolder;
+    font-size:1.cm;
+
 }
 
 .contacts-section{

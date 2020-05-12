@@ -123,34 +123,31 @@
         <!--contacts-->
         <section class="contacts-section">
             <h1>CONTACT US</h1>
-            <form>
+            <form  class="myForm">
                 <div class="row">
-                
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="name" name="name" class="form-control" rows="2" value="Your name" >
+                            <input type="text" id="name" name="name" class="form-control" rows="2" placeholder="name">
                             <label for="name" class="">Your name</label>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="md-form mb-0">
-                            <input type="text" id="email" name="email" class="form-control" rows="2" value="your email address">
+                            <input type="text" id="email" name="email" class="form-control" rows="2" placeholder="email">
                             <label for="email" class="">Your email</label>
                         </div>
                     </div>
-                
                 </div>
                 <div class="row">
                     <div class="col-md-12">
-                
                         <div class="md-form">
-                            <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea" value="type your message here"></textarea>
+                            <textarea type="text" id="message" name="message" rows="4" class="form-control md-textarea" required></textarea>
                             <label for="message">Your message</label>
                         </div>
                     </div>
                 </div>
                 <div class="send-message">
-                    <input type="submit" name="submit" value="send message" rows="2">
+                    <input type="submit" name="submit" value="send message" rows="2" onClick="grab_data();">
 
                 </div>
             </form>

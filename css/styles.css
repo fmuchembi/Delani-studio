@@ -127,10 +127,10 @@ section{
     padding: 8px;
 }
 .port:first-line{
-    color: #000;
+    color:white;
     font-weight: bold;
-    font-size: 1.5cm;
-}
+    font-size: 3px;
+}gi
 
 .contacts-section{
   background: url("assets/backgrounds/c_image.jpg") rgba(0, 0, 0, 0.5); 

@@ -130,10 +130,10 @@ section{
     color:white;
     font-weight: bold;
     font-size: 3px;
-}gi
+}
 
 .contacts-section{
-  background: url("assets/backgrounds/c_image.jpg") rgba(0, 0, 0, 0.5); 
+  background: url("assets/backgrounds/c_image.jpg") rgba(0, 0, 0, 0.5);
   background-size: cover;
   object-fit: cover;
   width: 100%;

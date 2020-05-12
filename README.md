@@ -1,6 +1,6 @@
 ##Delani-Studio
-a fictional studio, entailing about, services provided, portfolio of what has already been
-done and contact form to communicate with the service providers.
+ A fictional studio, entailing about, services provided, portfolio of what has already been
+ done and contact form to communicate with the service providers.
 ## author name
  Faith Muchembi
 ## project setup installation
@@ -29,6 +29,6 @@ Fork the repo
 
 ## Link to live github pages
  
- 
+ https://fmuchembi.github.io/Delani-studio/. 
 ## copyright
  Copyrights Faith muchembi2020

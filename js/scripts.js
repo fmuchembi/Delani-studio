@@ -1,17 +1,20 @@
 
 $(document).ready(function () {
+     $("#first").click( function(){
+          $("#design").toggle(2000);
+          $("#designs").toggle(2000);
+     });
 
-     $("#design").click(function () {
-          $("#paragraph1").show();
-     })
+     $("#second").on("click",function(){
+          $("#service").toggle(2000);
+          $("#services").toggle(2000);
+          
+          });
 
-     $("#service").click(function () {
-          $("#paragraph2").show();
-     })
-
-     $("#product").click(function () {
-          $("#paragraph3").show();
-     })
+     $("#third").on("click", function(){
+          $("#product").toggle(2000);
+          $("#managment").toggle(2000)
+     });
 
 
 
@@ -23,32 +26,26 @@ $(document).ready(function () {
 function grab_data(){
      const theName = document.getElementById('name').value
      const theEmail = document.getElementById("email").value
+     const theMessage= document.getElementById("message").value;
 
-//validation of name
+//validation of data
+     if (theName.length == 0) {
+          alert("name required");
+          theName.focus();
 
-     function validateName(theName) {
-          if (theName === '') {
-               alert("name invalid");
-          }
-          else {
-               theName === theName;
-               return theName;
-       
-        }   
-     }
-
-//validation of email
-     function validateEmail(theEmail) {
-          if (theEmail === '') {
-               alert("invalid email");
-          }
-          else {
-               theEmail= theEmail;
-               return theEmail;
+          if (theEmail.length == 0) {
+               alert("your email required");
+               theEmail.focus();
           }
 
-     }
-
+          if (theMessage.length == 0) {
+               alert("type a message");
+               theMessage.focus();
+          }
+     } 
+     
+     else {   
      
 return  alert("Thank you for contacting us " + theName + " we shall get intouch with you via the your email " + theEmail);
+     }
 }

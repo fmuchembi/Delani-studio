@@ -1,3 +1,7 @@
+body{
+    font-family: tohoma;
+}
+
 section{
     padding: 80px;
 }
@@ -12,10 +16,9 @@ section{
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   color: white;
-  font-family: sans-serif;
   text-align:center;
   background-size: cover;
-  padding-top:200px;
+  padding-top:100px;
 }
 .heros-page h1{
     padding: 10px;
@@ -38,43 +41,39 @@ section{
   background-size: cover;
   object-fit: cover;
   width: 100%;
-  height: 100vh;
+  height: 50vh;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   color: white;
-  font-family: sans-serif;
   text-align:center;
   background-size: cover;
-  padding-top:200px;
+  padding-top:100px;
 }
 
 #what-we-do h1{
     text-align: center;
+    font-family: tohoma;
 
 }
-.items > div{
-    padding-top: 20px;
+.container{
+    text-align: center;
 }
- .items{
-     display: flex;
-     justify-content: space-evenly;
+ .container h4{
+     font-family: tohoma;
+     font-size: 20px;
+     font-weight: bold;
+     letter-spacing: 3px;
+     line-height: 20px;
  }
-.item1{
-    text-align: center;
-    width: 20%;
-}
-.item2{
-    text-align: center;
-    width: 20%;
-    
-}
-.item3{
-    text-align: center;
-    width: 20%;
+ .container p{
+     font-display: tohoma;
+     font-size: 12px;
+     letter-spacing: 2px;
+     line-height: 20px;
+ }
 
-}
 .portfolio h1{text-align: center;
  }
 
@@ -82,29 +81,29 @@ section{
     width: 100%;
     height: auto;
     background: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    text-align: center;
+
 }
 
+.row{
+    margin-left: 0px;
+}
 
-.port{
-    height:200px;
-    width: 40%;
+.col{
+    height: 200px;
+    width:100%;
     margin: 30px;
     background-size: 100%;
     transition: 0.5s;
     background-position: center;
-    float: left;
-    position: relative;
     box-sizing: border-box;
 
 }
 
-.port:hover{background-size:110%;
+.col:hover{background-size:110%;
 }
 
-.port:after{
+.col:after{
     content: attr(data-text);
     position: absolute;
     top: 100%;
@@ -121,12 +120,12 @@ section{
     white-space: pre-wrap;
     text-align: center;
 }
-.port:hover:after{
+.col:hover:after{
     opacity: 1;
     top:0;
     padding: 8px;
 }
-.port:first-line{
+.col:first-line{
     color:white;
     font-weight: bolder;
     font-size:1.cm;
@@ -145,10 +144,9 @@ section{
   background-repeat: no-repeat;
   background-blend-mode: multiply;
   color: white;
-  font-family: sans-serif;
   text-align:center;
   background-size: cover;
-  padding-top:200px;
+  padding-top:100px;
 }
 .col-md-6 input{
     width: 100%;
@@ -184,12 +182,39 @@ section{
     opacity: 20%;
 
 }
-#paragraph1{
+#managment{
+    border: 1px solid black;
+    border-radius: 5%;
+    background: whitesmoke;
     display: none;
 }
-#paragraph2{
+#managment label{
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+#designs{
+    border: 1px solid black;
+    border-radius: 5%;
+    background: whitesmoke;
     display: none;
 }
-#paragraph3{
+#designs label{
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+#services{
+    border: 1px solid black;
+    border-radius: 5%;
+    background:whitesmoke;
     display: none;
+}
+#services label{
+    text-decoration-line: underline;
+    font-size: 20px;
+    font-weight: bolder;
+
 }

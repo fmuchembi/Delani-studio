@@ -16,6 +16,12 @@ JavaScript
 CSS (Bootstrap)
 JQuery
 
+## BDD
+1. Clicking on the image will toggle a paragraph explaining about the service. 
+2. Hovering over each image will show the description of each project. 
+3. Upon entering your details and message in the contact-us form, the data will be sent and you will receive a confirmation message thanking you for writing the message. 
+4. In case, submit form is entered without any values in the form, an alert message will pop-up asking you to input your name, email and a message.
+
 ## Development
 For contribution do the following;
 
@@ -31,4 +37,5 @@ Fork the repo
  
  https://fmuchembi.github.io/Delani-studio/. 
 ## copyright
+ MIT License
  Copyrights Faith muchembi2020
